@@ -37,6 +37,19 @@ const handleUserInput = function (key) {
     console.log('Move: right');
     connection.write('Move: right');
   }
+  if (key === '1') {
+    console.log('Say: Hello');
+    connection.write('Say: Hello');
+  }
+  if (key === '2') {
+    console.log('Say: eslinted!');
+    connection.write('Say: eslinted!');
+  }
+  if (key === '3') {
+    console.log('Say: Where exit?');
+    connection.write('Say: Where exit?');
+  }
+
 };
 
 module.exports = {
